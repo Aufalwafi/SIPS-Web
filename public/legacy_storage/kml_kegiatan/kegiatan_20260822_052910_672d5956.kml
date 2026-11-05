@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Petak_45_dan_46" id="Petak_45_dan_46">
+	<SimpleField name="TOPONIMI" type="string"></SimpleField>
+	<SimpleField name="AREA" type="float"></SimpleField>
+	<SimpleField name="BH" type="string"></SimpleField>
+	<SimpleField name="KPH" type="string"></SimpleField>
+	<SimpleField name="KODE_DATA" type="string"></SimpleField>
+	<SimpleField name="F1" type="string"></SimpleField>
+	<SimpleField name="NOMOR_URUT" type="float"></SimpleField>
+	<SimpleField name="KODE_DAT_1" type="string"></SimpleField>
+	<SimpleField name="DIVISI_REG" type="string"></SimpleField>
+	<SimpleField name="KODE_DIVIS" type="float"></SimpleField>
+	<SimpleField name="KPH_1" type="string"></SimpleField>
+	<SimpleField name="KODE_KPH" type="float"></SimpleField>
+	<SimpleField name="KELAS_PERU" type="string"></SimpleField>
+	<SimpleField name="KELOMPOK_H" type="string"></SimpleField>
+	<SimpleField name="BAGIAN_HUT" type="string"></SimpleField>
+	<SimpleField name="KODE_BH" type="float"></SimpleField>
+	<SimpleField name="BKPH" type="string"></SimpleField>
+	<SimpleField name="RPH" type="string"></SimpleField>
+	<SimpleField name="LMDH" type="string"></SimpleField>
+	<SimpleField name="DESA" type="string"></SimpleField>
+	<SimpleField name="KECAMATAN" type="string"></SimpleField>
+	<SimpleField name="KABUPATEN" type="string"></SimpleField>
+	<SimpleField name="PROVINSI" type="string"></SimpleField>
+	<SimpleField name="DAS" type="string"></SimpleField>
+	<SimpleField name="SUB_DAS" type="string"></SimpleField>
+	<SimpleField name="PETAK" type="float"></SimpleField>
+	<SimpleField name="ANAK_PETAK" type="string"></SimpleField>
+	<SimpleField name="KODE_ANAK_" type="string"></SimpleField>
+	<SimpleField name="LUAS_BAKU_" type="float"></SimpleField>
+	<SimpleField name="FUNGSI_HUT" type="string"></SimpleField>
+	<SimpleField name="JENIS_TANA" type="string"></SimpleField>
+	<SimpleField name="PENJELASAN" type="string"></SimpleField>
+	<SimpleField name="TAHUN_TANA" type="float"></SimpleField>
+	<SimpleField name="UMUR_" type="float"></SimpleField>
+	<SimpleField name="N_Ha" type="float"></SimpleField>
+	<SimpleField name="BONITA" type="float"></SimpleField>
+	<SimpleField name="KBD" type="float"></SimpleField>
+	<SimpleField name="DKN" type="float"></SimpleField>
+	<SimpleField name="KELAS_HUTA" type="string"></SimpleField>
+	<SimpleField name="TOPOGRAFI" type="string"></SimpleField>
+	<SimpleField name="KETINGGIAN" type="float"></SimpleField>
+	<SimpleField name="KLASIFIKAS" type="string"></SimpleField>
+	<SimpleField name="JENIS_TA_1" type="float"></SimpleField>
+	<SimpleField name="TEKSTUR_TA" type="string"></SimpleField>
+	<SimpleField name="STRUKTUR_T" type="string"></SimpleField>
+	<SimpleField name="SOLUM_TANA" type="string"></SimpleField>
+	<SimpleField name="BATUAN" type="string"></SimpleField>
+	<SimpleField name="KESUBURAN_" type="string"></SimpleField>
+	<SimpleField name="CURAH_HUJA" type="float"></SimpleField>
+	<SimpleField name="IKLIM" type="string"></SimpleField>
+	<SimpleField name="KERAWANAN_" type="string"></SimpleField>
+	<SimpleField name="KRITERIA_N" type="float"></SimpleField>
+	<SimpleField name="KEMUDAHAN_" type="string"></SimpleField>
+	<SimpleField name="KEMUDAHAN1" type="string"></SimpleField>
+	<SimpleField name="INTENSITAS" type="string"></SimpleField>
+	<SimpleField name="INTENSIT_1" type="string"></SimpleField>
+	<SimpleField name="INTENSIT_2" type="string"></SimpleField>
+	<SimpleField name="KOMODITAS_" type="string"></SimpleField>
+	<SimpleField name="INTENSIT_3" type="string"></SimpleField>
+	<SimpleField name="KOMODITAS1" type="string"></SimpleField>
+	<SimpleField name="INTENSIT_4" type="string"></SimpleField>
+	<SimpleField name="KOMODITA_1" type="string"></SimpleField>
+	<SimpleField name="INTENSIT_5" type="string"></SimpleField>
+	<SimpleField name="KOMODITA_2" type="string"></SimpleField>
+	<SimpleField name="KONFLIK_LA" type="string"></SimpleField>
+	<SimpleField name="LEGALITAS_" type="string"></SimpleField>
+	<SimpleField name="JENIS_DOKU" type="string"></SimpleField>
+	<SimpleField name="AKTOR_PIHA" type="string"></SimpleField>
+	<SimpleField name="LAND_USE_L" type="string"></SimpleField>
+	<SimpleField name="FUNGSI_H_1" type="string"></SimpleField>
+	<SimpleField name="KODE_FUNGS" type="string"></SimpleField>
+	<SimpleField name="PENATAAN_A" type="string"></SimpleField>
+	<SimpleField name="KODE_PAK" type="string"></SimpleField>
+	<SimpleField name="KESESUAIN_" type="string"></SimpleField>
+	<SimpleField name="KLASIFIK_1" type="string"></SimpleField>
+	<SimpleField name="KODE_KELAS" type="float"></SimpleField>
+	<SimpleField name="ZONASI" type="string"></SimpleField>
+	<SimpleField name="KODE_ZONAS" type="string"></SimpleField>
+	<SimpleField name="SUB_ZONASI" type="string"></SimpleField>
+	<SimpleField name="KODE_SUB_Z" type="string"></SimpleField>
+	<SimpleField name="TIPOLOGI" type="string"></SimpleField>
+	<SimpleField name="KODE_TIPOL" type="string"></SimpleField>
+	<SimpleField name="SUB_TIP_TA" type="string"></SimpleField>
+	<SimpleField name="KODE_SUB_T" type="string"></SimpleField>
+	<SimpleField name="VAR_GAB_RE" type="string"></SimpleField>
+	<SimpleField name="ARAHAN_MAK" type="string"></SimpleField>
+	<SimpleField name="KODE_ARAHA" type="string"></SimpleField>
+	<SimpleField name="REKOMENDAS" type="string"></SimpleField>
+	<SimpleField name="KODE_REKOM" type="string"></SimpleField>
+	<SimpleField name="KETERANGAN" type="string"></SimpleField>
+	<SimpleField name="Luas Hitun" type="float"></SimpleField>
+</Schema>
+<Folder><name>Petak_45_dan_46</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Petak_45_dan_46">
+		<SimpleData name="TOPONIMI">46C</SimpleData>
+		<SimpleData name="AREA">17.30</SimpleData>
+		<SimpleData name="BH">TULUNG</SimpleData>
+		<SimpleData name="KPH">SARADAN</SimpleData>
+		<SimpleData name="KODE_DATA">232150460301</SimpleData>
+		<SimpleData name="F1">SARADANTULUNG46C13.8</SimpleData>
+		<SimpleData name="NOMOR_URUT">94006.000000</SimpleData>
+		<SimpleData name="KODE_DAT_1">232150460301</SimpleData>
+		<SimpleData name="DIVISI_REG">JAWA TIMUR</SimpleData>
+		<SimpleData name="KODE_DIVIS">2.000000</SimpleData>
+		<SimpleData name="KPH_1">SARADAN</SimpleData>
+		<SimpleData name="KODE_KPH">32.000000</SimpleData>
+		<SimpleData name="KELAS_PERU">JATI</SimpleData>
+		<SimpleData name="KELOMPOK_H">TULUNG</SimpleData>
+		<SimpleData name="BAGIAN_HUT">TULUNG</SimpleData>
+		<SimpleData name="KODE_BH">15.000000</SimpleData>
+		<SimpleData name="BKPH">KEDUNGBRUBUS</SimpleData>
+		<SimpleData name="RPH">KEDUNGBRUBUS</SimpleData>
+		<SimpleData name="LMDH">WONO MAKMUR</SimpleData>
+		<SimpleData name="DESA">MIYONO</SimpleData>
+		<SimpleData name="KECAMATAN">SEKAR</SimpleData>
+		<SimpleData name="KABUPATEN">BOJONEGORO</SimpleData>
+		<SimpleData name="PROVINSI">JAWA TIMUR</SimpleData>
+		<SimpleData name="DAS">SOLO</SimpleData>
+		<SimpleData name="SUB_DAS">0</SimpleData>
+		<SimpleData name="PETAK">46.000000</SimpleData>
+		<SimpleData name="ANAK_PETAK">46C</SimpleData>
+		<SimpleData name="KODE_ANAK_">0022400</SimpleData>
+		<SimpleData name="LUAS_BAKU_">13.800000</SimpleData>
+		<SimpleData name="FUNGSI_HUT">HP</SimpleData>
+		<SimpleData name="JENIS_TANA">JATI</SimpleData>
+		<SimpleData name="TAHUN_TANA">2009.000000</SimpleData>
+		<SimpleData name="UMUR_">7.000000</SimpleData>
+		<SimpleData name="N_Ha">550.000000</SimpleData>
+		<SimpleData name="BONITA">3.500000</SimpleData>
+		<SimpleData name="KBD">0.570000</SimpleData>
+		<SimpleData name="DKN">0.470000</SimpleData>
+		<SimpleData name="KELAS_HUTA">TBK</SimpleData>
+		<SimpleData name="TOPOGRAFI">AGAK CURAM</SimpleData>
+		<SimpleData name="KETINGGIAN">150.000000</SimpleData>
+		<SimpleData name="KLASIFIKAS">b. 100-199</SimpleData>
+		<SimpleData name="JENIS_TA_1">0.000000</SimpleData>
+		<SimpleData name="TEKSTUR_TA">LEMPUNG BERPASIR</SimpleData>
+		<SimpleData name="STRUKTUR_T">AGAK LIAT</SimpleData>
+		<SimpleData name="SOLUM_TANA">DALAM</SimpleData>
+		<SimpleData name="BATUAN">SEDIKIT BATU</SimpleData>
+		<SimpleData name="KESUBURAN_">SEDANG</SimpleData>
+		<SimpleData name="CURAH_HUJA">527.900000</SimpleData>
+		<SimpleData name="IKLIM">D</SimpleData>
+		<SimpleData name="KERAWANAN_">TIDAK ADA</SimpleData>
+		<SimpleData name="KRITERIA_N">0.000000</SimpleData>
+		<SimpleData name="KEMUDAHAN_">SULIT</SimpleData>
+		<SimpleData name="KEMUDAHAN1">SULIT</SimpleData>
+		<SimpleData name="INTENSITAS">RENDAH</SimpleData>
+		<SimpleData name="INTENSIT_1">JARANG</SimpleData>
+		<SimpleData name="INTENSIT_2">MUSIMAN</SimpleData>
+		<SimpleData name="KOMODITAS_">PALAWIJA</SimpleData>
+		<SimpleData name="INTENSIT_3">TIDAK ADA</SimpleData>
+		<SimpleData name="KOMODITAS1">-</SimpleData>
+		<SimpleData name="INTENSIT_4">TIDAK ADA</SimpleData>
+		<SimpleData name="KOMODITA_1">-</SimpleData>
+		<SimpleData name="INTENSIT_5">TIDAK ADA</SimpleData>
+		<SimpleData name="KOMODITA_2">-</SimpleData>
+		<SimpleData name="KONFLIK_LA">TIDAK KONFLIK</SimpleData>
+		<SimpleData name="LEGALITAS_">TIDAK ADA</SimpleData>
+		<SimpleData name="JENIS_DOKU">-</SimpleData>
+		<SimpleData name="AKTOR_PIHA">0</SimpleData>
+		<SimpleData name="LAND_USE_L">-</SimpleData>
+		<SimpleData name="FUNGSI_H_1">HP</SimpleData>
+		<SimpleData name="KODE_FUNGS">II</SimpleData>
+		<SimpleData name="PENATAAN_A">PROD</SimpleData>
+		<SimpleData name="KODE_PAK">2.3.</SimpleData>
+		<SimpleData name="KESESUAIN_">SESUAI KP</SimpleData>
+		<SimpleData name="KLASIFIK_1">TIDAK PRODUKTIF</SimpleData>
+		<SimpleData name="KODE_KELAS">1117.000000</SimpleData>
+		<SimpleData name="ZONASI">ADAPTIF</SimpleData>
+		<SimpleData name="KODE_ZONAS">D</SimpleData>
+		<SimpleData name="SUB_ZONASI">KAW PRODUKSI ADAPTIF</SimpleData>
+		<SimpleData name="KODE_SUB_Z">D1</SimpleData>
+		<SimpleData name="TIPOLOGI">KAW PRODUKSI ADAPTIF</SimpleData>
+		<SimpleData name="KODE_TIPOL">D11</SimpleData>
+		<SimpleData name="SUB_TIP_TA">KAW PRODUKSI ADAPTIF - PENGGARAPAN TÂNAMAN SEMUSIM</SimpleData>
+		<SimpleData name="KODE_SUB_T">D11 - S03</SimpleData>
+		<SimpleData name="VAR_GAB_RE">KAW PRODUKSI ADAPTIF - PENGGARAPAN TÂNAMAN SEMUSIM - TIDAK ADA</SimpleData>
+		<SimpleData name="ARAHAN_MAK">HUTAN PRODUKSI</SimpleData>
+		<SimpleData name="KODE_ARAHA">B</SimpleData>
+		<SimpleData name="REKOMENDAS">HP - PRODUKSI KEMITRAAN</SimpleData>
+		<SimpleData name="KODE_REKOM">B3</SimpleData>
+		<SimpleData name="Luas Hitun">1.295819891688944</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>111.712861224991,-7.44012777255138 111.713261695261,-7.44012712833698 111.713452881694,-7.44010881475867 111.713558094781,-7.44023798696723 111.713836630583,-7.44023753849595 111.713837079982,-7.44051555932044 111.714115615942,-7.44051511065722 111.714116065533,-7.44079313146124 111.714394601651,-7.44079268260607 111.714395051435,-7.44107070338963 111.714395287103,-7.44121637102325 111.713794942123,-7.44102720944894 111.713016155863,-7.44078440737708 111.713003709842,-7.44074350512399 111.712915945476,-7.44074364757148 111.712811750312,-7.44073474923276 111.712619785349,-7.44072599243773 111.712602232476,-7.44072602779967 111.712637689664,-7.4405812819909 111.712711053741,-7.44041840258032 111.712762997187,-7.4403188565549 111.712784947472,-7.44022838594394 111.712861224991,-7.44012777255138</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Petak_45_dan_46">
+		<SimpleData name="TOPONIMI">46D</SimpleData>
+		<SimpleData name="AREA">3.47</SimpleData>
+		<SimpleData name="BH">TULUNG</SimpleData>
+		<SimpleData name="KPH">SARADAN</SimpleData>
+		<SimpleData name="KODE_DATA">232150460401</SimpleData>
+		<SimpleData name="F1">SARADANTULUNG46D4.2</SimpleData>
+		<SimpleData name="NOMOR_URUT">94007.000000</SimpleData>
+		<SimpleData name="KODE_DAT_1">232150460401</SimpleData>
+		<SimpleData name="DIVISI_REG">JAWA TIMUR</SimpleData>
+		<SimpleData name="KODE_DIVIS">2.000000</SimpleData>
+		<SimpleData name="KPH_1">SARADAN</SimpleData>
+		<SimpleData name="KODE_KPH">32.000000</SimpleData>
+		<SimpleData name="KELAS_PERU">JATI</SimpleData>
+		<SimpleData name="KELOMPOK_H">TULUNG</SimpleData>
+		<SimpleData name="BAGIAN_HUT">TULUNG</SimpleData>
+		<SimpleData name="KODE_BH">15.000000</SimpleData>
+		<SimpleData name="BKPH">KEDUNGBRUBUS</SimpleData>
+		<SimpleData name="RPH">KEDUNGBRUBUS</SimpleData>
+		<SimpleData name="LMDH">WONO MAKMUR</SimpleData>
+		<SimpleData name="DESA">MIYONO</SimpleData>
+		<SimpleData name="KECAMATAN">SEKAR</SimpleData>
+		<SimpleData name="KABUPATEN">BOJONEGORO</SimpleData>
+		<SimpleData name="PROVINSI">JAWA TIMUR</SimpleData>
+		<SimpleData name="DAS">SOLO</SimpleData>
+		<SimpleData name="SUB_DAS">0</SimpleData>
+		<SimpleData name="PETAK">46.000000</SimpleData>
+		<SimpleData name="ANAK_PETAK">46D</SimpleData>
+		<SimpleData name="KODE_ANAK_">0022500</SimpleData>
+		<SimpleData name="LUAS_BAKU_">4.200000</SimpleData>
+		<SimpleData name="FUNGSI_HUT">HP</SimpleData>
+		<SimpleData name="TAHUN_TANA">0.000000</SimpleData>
+		<SimpleData name="UMUR_">0.000000</SimpleData>
+		<SimpleData name="N_Ha">0.000000</SimpleData>
+		<SimpleData name="BONITA">0.000000</SimpleData>
+		<SimpleData name="KBD">0.000000</SimpleData>
+		<SimpleData name="DKN">0.000000</SimpleData>
+		<SimpleData name="KELAS_HUTA">LDTI</SimpleData>
+		<SimpleData name="TOPOGRAFI">AGAK CURAM</SimpleData>
+		<SimpleData name="KETINGGIAN">150.000000</SimpleData>
+		<SimpleData name="KLASIFIKAS">b. 100-199</SimpleData>
+		<SimpleData name="JENIS_TA_1">0.000000</SimpleData>
+		<SimpleData name="TEKSTUR_TA">LEMPUNG BERPASIR</SimpleData>
+		<SimpleData name="STRUKTUR_T">AGAK LIAT</SimpleData>
+		<SimpleData name="SOLUM_TANA">DALAM</SimpleData>
+		<SimpleData name="BATUAN">SEDIKIT BATU</SimpleData>
+		<SimpleData name="KESUBURAN_">SEDANG</SimpleData>
+		<SimpleData name="CURAH_HUJA">527.900000</SimpleData>
+		<SimpleData name="IKLIM">D</SimpleData>
+		<SimpleData name="KERAWANAN_">TIDAK ADA</SimpleData>
+		<SimpleData name="KRITERIA_N">0.000000</SimpleData>
+		<SimpleData name="KEMUDAHAN_">SULIT</SimpleData>
+		<SimpleData name="KEMUDAHAN1">SULIT</SimpleData>
+		<SimpleData name="INTENSITAS">RENDAH</SimpleData>
+		<SimpleData name="INTENSIT_1">JARANG</SimpleData>
+		<SimpleData name="INTENSIT_2">MUSIMAN</SimpleData>
+		<SimpleData name="KOMODITAS_">PALAWIJA</SimpleData>
+		<SimpleData name="INTENSIT_3">TIDAK ADA</SimpleData>
+		<SimpleData name="KOMODITAS1">-</SimpleData>
+		<SimpleData name="INTENSIT_4">TIDAK ADA</SimpleData>
+		<SimpleData name="KOMODITA_1">-</SimpleData>
+		<SimpleData name="INTENSIT_5">TIDAK ADA</SimpleData>
+		<SimpleData name="KOMODITA_2">-</SimpleData>
+		<SimpleData name="KONFLIK_LA">TIDAK KONFLIK</SimpleData>
+		<SimpleData name="LEGALITAS_">TIDAK ADA</SimpleData>
+		<SimpleData name="JENIS_DOKU">-</SimpleData>
+		<SimpleData name="AKTOR_PIHA">0</SimpleData>
+		<SimpleData name="LAND_USE_L">-</SimpleData>
+		<SimpleData name="FUNGSI_H_1">HP</SimpleData>
+		<SimpleData name="KODE_FUNGS">II</SimpleData>
+		<SimpleData name="PENATAAN_A">PL</SimpleData>
+		<SimpleData name="KODE_PAK">2.2.</SimpleData>
+		<SimpleData name="KESESUAIN_">LDTI</SimpleData>
+		<SimpleData name="KLASIFIK_1">LDTI</SimpleData>
+		<SimpleData name="KODE_KELAS">1302.000000</SimpleData>
+		<SimpleData name="ZONASI">ADAPTIF</SimpleData>
+		<SimpleData name="KODE_ZONAS">D</SimpleData>
+		<SimpleData name="SUB_ZONASI">KAW PENGGUNAAN LAIN ADAPTIF</SimpleData>
+		<SimpleData name="KODE_SUB_Z">D2</SimpleData>
+		<SimpleData name="TIPOLOGI">LAPANGAN DENGAN TUJUAN ISTIMEWA</SimpleData>
+		<SimpleData name="KODE_TIPOL">D21</SimpleData>
+		<SimpleData name="SUB_TIP_TA">LAPANGAN DENGAN TUJUAN ISTIMEWA</SimpleData>
+		<SimpleData name="KODE_SUB_T">D21 - S00</SimpleData>
+		<SimpleData name="VAR_GAB_RE">LAPANGAN DENGAN TUJUAN ISTIMEWA - TIDAK ADA</SimpleData>
+		<SimpleData name="ARAHAN_MAK">HUTAN PRODUKSI</SimpleData>
+		<SimpleData name="KODE_ARAHA">B</SimpleData>
+		<SimpleData name="REKOMENDAS">HP - PRODUKSI KEMITRAAN</SimpleData>
+		<SimpleData name="KODE_REKOM">B3</SimpleData>
+		<SimpleData name="Luas Hitun">2.318588481572298</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>111.714395501235,-7.4413487241697 111.714674037687,-7.44134827510561 111.71467448768,-7.4416262958652 111.71495302429,-7.44162584660912 111.714953474476,-7.44190386734823 111.714953924679,-7.44218188808385 111.715232461623,-7.44218143861881 111.715233362432,-7.44273748004554 111.715465303415,-7.44273710560933 111.715382317499,-7.44295549245299 111.714404760016,-7.44240533347665 111.713854812631,-7.44192687168002 111.71366948016,-7.44180958286919 111.713495477677,-7.44169229396335 111.713460343744,-7.44167424948616 111.713356021292,-7.44158397426723 111.713235174377,-7.44142137934357 111.713207309007,-7.44134003691485 111.713137392581,-7.44115929112518 111.71309305459,-7.44104178882047 111.713053212258,-7.44090620739354 111.713016155863,-7.44078440737708 111.713794942123,-7.44102720944894 111.714395287103,-7.44121637102325 111.714395501235,-7.4413487241697</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Petak_45_dan_46">
+		<SimpleData name="TOPONIMI">45C</SimpleData>
+		<SimpleData name="AREA">11.48</SimpleData>
+		<SimpleData name="BH">TULUNG</SimpleData>
+		<SimpleData name="KPH">SARADAN</SimpleData>
+		<SimpleData name="KODE_DATA">232150450102</SimpleData>
+		<SimpleData name="F1">SARADANTULUNG45A8.8</SimpleData>
+		<SimpleData name="NOMOR_URUT">93997.000000</SimpleData>
+		<SimpleData name="KODE_DAT_1">232150450102</SimpleData>
+		<SimpleData name="DIVISI_REG">JAWA TIMUR</SimpleData>
+		<SimpleData name="KODE_DIVIS">2.000000</SimpleData>
+		<SimpleData name="KPH_1">SARADAN</SimpleData>
+		<SimpleData name="KODE_KPH">32.000000</SimpleData>
+		<SimpleData name="KELAS_PERU">JATI</SimpleData>
+		<SimpleData name="KELOMPOK_H">TULUNG</SimpleData>
+		<SimpleData name="BAGIAN_HUT">TULUNG</SimpleData>
+		<SimpleData name="KODE_BH">15.000000</SimpleData>
+		<SimpleData name="BKPH">KEDUNGBRUBUS</SimpleData>
+		<SimpleData name="RPH">KEDUNGBRUBUS</SimpleData>
+		<SimpleData name="LMDH">WONO LESTARI</SimpleData>
+		<SimpleData name="DESA">BULU</SimpleData>
+		<SimpleData name="KECAMATAN">PILANGKENCENG</SimpleData>
+		<SimpleData name="KABUPATEN">MADIUN</SimpleData>
+		<SimpleData name="PROVINSI">JAWA TIMUR</SimpleData>
+		<SimpleData name="DAS">SOLO</SimpleData>
+		<SimpleData name="SUB_DAS">0</SimpleData>
+		<SimpleData name="PETAK">45.000000</SimpleData>
+		<SimpleData name="ANAK_PETAK">45A</SimpleData>
+		<SimpleData name="KODE_ANAK_">0021500</SimpleData>
+		<SimpleData name="LUAS_BAKU_">8.800000</SimpleData>
+		<SimpleData name="FUNGSI_HUT">HP</SimpleData>
+		<SimpleData name="TAHUN_TANA">0.000000</SimpleData>
+		<SimpleData name="UMUR_">0.000000</SimpleData>
+		<SimpleData name="N_Ha">0.000000</SimpleData>
+		<SimpleData name="BONITA">0.000000</SimpleData>
+		<SimpleData name="KBD">0.000000</SimpleData>
+		<SimpleData name="DKN">0.000000</SimpleData>
+		<SimpleData name="KELAS_HUTA">LDTI</SimpleData>
+		<SimpleData name="TOPOGRAFI">AGAK CURAM</SimpleData>
+		<SimpleData name="KETINGGIAN">150.000000</SimpleData>
+		<SimpleData name="KLASIFIKAS">b. 100-199</SimpleData>
+		<SimpleData name="JENIS_TA_1">0.000000</SimpleData>
+		<SimpleData name="TEKSTUR_TA">LEMPUNG BERPASIR</SimpleData>
+		<SimpleData name="STRUKTUR_T">AGAK LIAT</SimpleData>
+		<SimpleData name="SOLUM_TANA">DALAM</SimpleData>
+		<SimpleData name="BATUAN">SEDIKIT BATU</SimpleData>
+		<SimpleData name="KESUBURAN_">SEDANG</SimpleData>
+		<SimpleData name="CURAH_HUJA">527.900000</SimpleData>
+		<SimpleData name="IKLIM">D</SimpleData>
+		<SimpleData name="KERAWANAN_">TIDAK ADA</SimpleData>
+		<SimpleData name="KRITERIA_N">0.000000</SimpleData>
+		<SimpleData name="KEMUDAHAN_">SULIT</SimpleData>
+		<SimpleData name="KEMUDAHAN1">SULIT</SimpleData>
+		<SimpleData name="INTENSITAS">TIDAK ADA</SimpleData>
+		<SimpleData name="INTENSIT_1">TIDAK ADA</SimpleData>
+		<SimpleData name="INTENSIT_2">MUSIMAN</SimpleData>
+		<SimpleData name="KOMODITAS_">PALAWIJA</SimpleData>
+		<SimpleData name="INTENSIT_3">TIDAK ADA</SimpleData>
+		<SimpleData name="KOMODITAS1">-</SimpleData>
+		<SimpleData name="INTENSIT_4">TIDAK ADA</SimpleData>
+		<SimpleData name="KOMODITA_1">-</SimpleData>
+		<SimpleData name="INTENSIT_5">TIDAK ADA</SimpleData>
+		<SimpleData name="KOMODITA_2">-</SimpleData>
+		<SimpleData name="KONFLIK_LA">TIDAK KONFLIK</SimpleData>
+		<SimpleData name="LEGALITAS_">TIDAK ADA</SimpleData>
+		<SimpleData name="JENIS_DOKU">-</SimpleData>
+		<SimpleData name="AKTOR_PIHA">0</SimpleData>
+		<SimpleData name="LAND_USE_L">-</SimpleData>
+		<SimpleData name="FUNGSI_H_1">HP</SimpleData>
+		<SimpleData name="KODE_FUNGS">II</SimpleData>
+		<SimpleData name="PENATAAN_A">PL</SimpleData>
+		<SimpleData name="KODE_PAK">2.2.</SimpleData>
+		<SimpleData name="KESESUAIN_">LDTI</SimpleData>
+		<SimpleData name="KLASIFIK_1">LDTI</SimpleData>
+		<SimpleData name="KODE_KELAS">1302.000000</SimpleData>
+		<SimpleData name="ZONASI">ADAPTIF</SimpleData>
+		<SimpleData name="KODE_ZONAS">D</SimpleData>
+		<SimpleData name="SUB_ZONASI">KAW PENGGUNAAN LAIN ADAPTIF</SimpleData>
+		<SimpleData name="KODE_SUB_Z">D2</SimpleData>
+		<SimpleData name="TIPOLOGI">LAPANGAN DENGAN TUJUAN ISTIMEWA</SimpleData>
+		<SimpleData name="KODE_TIPOL">D21</SimpleData>
+		<SimpleData name="SUB_TIP_TA">LAPANGAN DENGAN TUJUAN ISTIMEWA</SimpleData>
+		<SimpleData name="KODE_SUB_T">D21 - S00</SimpleData>
+		<SimpleData name="VAR_GAB_RE">LAPANGAN DENGAN TUJUAN ISTIMEWA - TIDAK ADA</SimpleData>
+		<SimpleData name="ARAHAN_MAK">HUTAN PRODUKSI</SimpleData>
+		<SimpleData name="KODE_ARAHA">B</SimpleData>
+		<SimpleData name="REKOMENDAS">HP - PRODUKSI KEMITRAAN</SimpleData>
+		<SimpleData name="KODE_REKOM">B3</SimpleData>
+		<SimpleData name="Luas Hitun">11.421810892872603</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>111.712179213,-7.44552298399998 111.71209073633,-7.44556998713804 111.71200184428,-7.44552867608548 111.711792667825,-7.44536622414197 111.711700335055,-7.44533922795131 111.711600622796,-7.44530321088963 111.711524051104,-7.44521288290252 111.711438414518,-7.44512258929778 111.711376063996,-7.44507746068151 111.711256995236,-7.44496912450952 111.711173771957,-7.44497828784743 111.711146170644,-7.44498213267901 111.711292201883,-7.44472408143927 111.711112634811,-7.44428082673907 111.711025524207,-7.44423132808912 111.711012711,-7.44419558599998 111.710909780758,-7.44413454605005 111.710320855,-7.44378529899996 111.710173535893,-7.44378529904903 111.710179257731,-7.44368664540625 111.710157887742,-7.44358399805119 111.710293565072,-7.44343918117941 111.71050991446,-7.44329730899662 111.710650758923,-7.44319762208125 111.710753163208,-7.44314322275272 111.710855582035,-7.44309784617418 111.710907037659,-7.44305255758006 111.710978895463,-7.4430162907266 111.711040007494,-7.44298906567886 111.711081247909,-7.44292569724638 111.71112198413,-7.44290756468637 111.711204089852,-7.44290744035609 111.711275945844,-7.4428711554072 111.711306454124,-7.44282590398007 111.71132733599,-7.44278065079001 111.711398666851,-7.44277150466055 111.711522103022,-7.44277132675003 111.711603598159,-7.44274406540419 111.711716775488,-7.44269868872004 111.711808947297,-7.44261716863006 111.711839415564,-7.44254477833625 111.711890832985,-7.44247235355783 111.711921814554,-7.44236380342356 111.711931870624,-7.44227334956985 111.711921544493,-7.44218293378798 111.711901076836,-7.44212871043043 111.711921379921,-7.44207441812113 111.711972827335,-7.44202009036097 111.712034530874,-7.44201096144259 111.71210587537,-7.44201085434372 111.712198100824,-7.4419654957875 111.712239341234,-7.44190214438631 111.712269796765,-7.44182071491237 111.712260050318,-7.44173933719381 111.712249749653,-7.44166700033545 111.712208291926,-7.44158567610694 111.712136867409,-7.44153152530586 111.712075112033,-7.44150449343828 111.712003752994,-7.44149555965795 111.711962378913,-7.44146849241523 111.711901195977,-7.44145050233089 111.711921543601,-7.44142334703355 111.711983274415,-7.44143229714284 111.71206483774,-7.44145025366225 111.712146937117,-7.44145013023525 111.712218820379,-7.44143194318986 111.712280471171,-7.4413866371885 111.712310979446,-7.4413413657122 111.712321025498,-7.44124189065597 111.712311305424,-7.44117859369514 111.712311219967,-7.44112433664015 111.712331486661,-7.44104292335853 111.712382931354,-7.440988595474 111.712444526682,-7.44090711140921 111.712495390784,-7.44084374262109 111.712557041573,-7.44079843565153 111.712602232476,-7.44072602779967 111.712619785349,-7.44072599243773 111.712811750312,-7.44073474923276 111.712915945476,-7.44074364757148 111.713003709842,-7.44074350512399 111.713016155863,-7.44078440737708 111.713053212258,-7.44090620739354 111.71309305459,-7.44104178882047 111.713137392581,-7.44115929112518 111.713207309007,-7.44134003691485 111.713235174377,-7.44142137934357 111.713356021292,-7.44158397426723 111.713460343744,-7.44167424948616 111.713495477677,-7.44169229396335 111.71366948016,-7.44180958286919 111.713854812631,-7.44192687168002 111.714404760016,-7.44240533347665 111.713788416258,-7.44334669187686 111.713406475855,-7.44389888917819 111.71274605134,-7.44489457174652 111.712431434881,-7.44541048418541 111.71230737397,-7.44557504878012 111.712179213,-7.44552298399998</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

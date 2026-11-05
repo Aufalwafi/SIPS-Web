@@ -1,0 +1,21 @@
+{
+  "name": "SI PS ONLINE - Dinas Kehutanan Jatim",
+  "short_name": "SI PS ONLINE",
+  "description": "Sistem Informasi Perhutanan Sosial Online Dinas Kehutanan Provinsi Jawa Timur",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f5132",
+  "icons": [
+    {
+      "src": "assets/logo-jatim.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/logo-jatim.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

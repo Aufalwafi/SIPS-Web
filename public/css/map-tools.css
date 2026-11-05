@@ -1,0 +1,185 @@
+/* Map Tools Styling - SI PS ONLINE */
+/* GPS Locate Control */
+.leaflet-control-locate-btn,
+.leaflet-control-measure-btn {
+    background-color: #fff;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+    color: #1e293b;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    text-decoration: none !important;
+}
+
+.leaflet-control-locate-btn:hover,
+.leaflet-control-measure-btn:hover {
+    background-color: #f8fafc;
+    color: #166534;
+}
+
+.leaflet-control-locate-btn.active,
+.leaflet-control-measure-btn.active {
+    background-color: #166534;
+    color: #fff;
+}
+
+.leaflet-control-locate-btn.searching {
+    color: #2563eb;
+    animation: pulse-ring 1.2s infinite;
+}
+
+@keyframes pulse-ring {
+    0% { transform: scale(0.95); opacity: 0.8; }
+    50% { transform: scale(1.1); opacity: 1; }
+    100% { transform: scale(0.95); opacity: 0.8; }
+}
+
+/* Pulsing User Location Marker */
+.user-gps-dot {
+    width: 16px;
+    height: 16px;
+    background: #2563eb;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(37,99,235,0.7);
+    position: relative;
+}
+
+.user-gps-dot::after {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: rgba(37,99,235,0.35);
+    animation: gps-pulse 1.8s infinite;
+}
+
+@keyframes gps-pulse {
+    0% { transform: scale(0.8); opacity: 0.9; }
+    100% { transform: scale(2.2); opacity: 0; }
+}
+
+/* Measurement Popup */
+.measure-popup-box {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    padding: 4px 2px;
+    font-size: 12px;
+}
+
+.measure-popup-title {
+    font-weight: 700;
+    color: #166534;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 4px;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.measure-stat-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.measure-stat-label {
+    color: #64748b;
+}
+
+.measure-stat-val {
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.measure-del-btn {
+    display: inline-block;
+    width: 100%;
+    margin-top: 6px;
+    background: #fee2e2;
+    color: #991b1b;
+    border: 1px solid #fecaca;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    cursor: pointer;
+    text-align: center;
+    transition: background 0.15s;
+}
+
+.measure-del-btn:hover {
+    background: #fca5a5;
+}
+
+/* Petak Perhutani Popup */
+.petak-popup {
+    font-size: 12px;
+    line-height: 1.5;
+    min-width: 200px;
+}
+
+.petak-popup-header {
+    background: #fef3c7;
+    color: #92400e;
+    font-weight: 700;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-bottom: 6px;
+    border: 1px solid #fde68a;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.petak-popup-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 0;
+    border-bottom: 1px dashed #f1f5f9;
+}
+
+.petak-popup-row:last-child {
+    border-bottom: none;
+}
+
+.petak-popup-label {
+    color: #64748b;
+    font-size: 11px;
+}
+
+.petak-popup-value {
+    font-weight: 600;
+    color: #1e293b;
+    font-size: 11px;
+    text-align: right;
+}
+
+/* Status Indicator for Loading Petak */
+.petak-loading-toast {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    background: rgba(15, 23, 42, 0.85);
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 11px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    pointer-events: none;
+    transition: opacity 0.3s;
+}

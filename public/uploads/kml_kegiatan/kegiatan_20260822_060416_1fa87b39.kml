@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="calon_lokasi_fape_kth_wono_bhekti" id="calon_lokasi_fape_kth_wono_bhekti">
+	<SimpleField name="OID_" type="float"></SimpleField>
+	<SimpleField name="FolderPath" type="string"></SimpleField>
+	<SimpleField name="SymbolID" type="float"></SimpleField>
+	<SimpleField name="AltMode" type="int"></SimpleField>
+	<SimpleField name="Base" type="float"></SimpleField>
+	<SimpleField name="Clamped" type="int"></SimpleField>
+	<SimpleField name="Extruded" type="int"></SimpleField>
+	<SimpleField name="Snippet" type="string"></SimpleField>
+	<SimpleField name="PopupInfo" type="string"></SimpleField>
+	<SimpleField name="Shape_Leng" type="float"></SimpleField>
+	<SimpleField name="Shape_Area" type="float"></SimpleField>
+</Schema>
+<Folder><name>calon_lokasi_fape_kth_wono_bhekti</name>
+  <Placemark>
+	<name>Petak 5</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#calon_lokasi_fape_kth_wono_bhekti">
+		<SimpleData name="OID_">0</SimpleData>
+		<SimpleData name="FolderPath">FAPE-PS Babadan.kmz/FAPE-PS Babadan</SimpleData>
+		<SimpleData name="SymbolID">0</SimpleData>
+		<SimpleData name="AltMode">0</SimpleData>
+		<SimpleData name="Base">0.00000000000</SimpleData>
+		<SimpleData name="Clamped">-1</SimpleData>
+		<SimpleData name="Extruded">0</SimpleData>
+		<SimpleData name="Shape_Leng">0.01518940382</SimpleData>
+		<SimpleData name="Shape_Area">0.00001036000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>111.343086668,-7.49990754299995,0 111.343590798,-7.50148788699994,0 111.338032218,-7.50304123299998,0 111.338141203,-7.50224431599997,0 111.338127576,-7.50179858399997,0 111.33766437,-7.50092062999994,0 111.343086668,-7.49990754299995,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Petak 9</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#calon_lokasi_fape_kth_wono_bhekti">
+		<SimpleData name="OID_">0</SimpleData>
+		<SimpleData name="FolderPath">FAPE-PS Babadan.kmz/FAPE-PS Babadan</SimpleData>
+		<SimpleData name="SymbolID">0</SimpleData>
+		<SimpleData name="AltMode">0</SimpleData>
+		<SimpleData name="Base">0.00000000000</SimpleData>
+		<SimpleData name="Clamped">-1</SimpleData>
+		<SimpleData name="Extruded">0</SimpleData>
+		<SimpleData name="Shape_Leng">0.01343217031</SimpleData>
+		<SimpleData name="Shape_Area">0.00000662959</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>111.329911238,-7.50544509599996,0 111.32979768,-7.50452449299996,0 111.330690182,-7.50428862199993,0 111.331274011,-7.50421077799996,0 111.331724514,-7.50413190099994,0 111.331763606,-7.50454106399997,0 111.33195562,-7.50462284599996,0 111.332415816,-7.50464716299996,0 111.333076222,-7.50460659199996,0 111.333383424,-7.50414072899997,0 111.333465499,-7.50383355699995,0 111.334188184,-7.50372136299995,0 111.334010693,-7.50461472099994,0 111.333495342,-7.50487700999997,0 111.333004879,-7.50510536099995,0 111.332306005,-7.50608464999993,0 111.332121876,-7.50617681599994,0 111.331925288,-7.50627926299995,0 111.33155908,-7.50634443899997,0 111.331207151,-7.50639712899994,0 111.330932388,-7.50650654699996,0 111.330922701,-7.50651223899996,0 111.330720346,-7.50669638499994,0 111.330303499,-7.50667991899996,0 111.330111481,-7.50649511399996,0 111.33008155,-7.50608458699998,0 111.329923476,-7.50596537299998,0 111.329775348,-7.50593352799996,0 111.329601015,-7.50551471599994,0 111.329911238,-7.50544509599996,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

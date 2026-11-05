@@ -1,0 +1,29 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+
+    # Keamanan: Blokir akses langsung ke file sensitif
+    RewriteRule ^(\.env|\.git|artisan|composer\.(json|lock)|package\.json|phpunit\.xml) - [F,L,NC]
+
+    # Arahkan asset statis (css, js, storage, gambar) ke folder public
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(assets|css|js|storage|legacy_storage|uploads|favicon\.ico|robots\.txt|manifest\.json)(.*)$ public/$1$2 [L,NC]
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Redirect Trailing Slashes Jika Bukan Folder
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Kirim semua request route ke front controller (index.php di root)
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>

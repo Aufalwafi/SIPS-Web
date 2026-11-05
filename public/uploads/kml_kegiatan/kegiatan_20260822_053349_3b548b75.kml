@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="calon_lokasi_fape_lembaga_kelestarian_hutan_baru" id="calon_lokasi_fape_lembaga_kelestarian_hutan_baru">
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudeMode" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="int"></SimpleField>
+	<SimpleField name="extrude" type="int"></SimpleField>
+	<SimpleField name="visibility" type="int"></SimpleField>
+	<SimpleField name="drawOrder" type="int"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+	<SimpleField name="snippet" type="string"></SimpleField>
+</Schema>
+<Folder><name>calon_lokasi_fape_lembaga_kelestarian_hutan_baru</name>
+  <Placemark>
+	<name>0</name>
+	<description>&lt;html xmlns:fo=&quot;http://www.w3.org/1999/XSL/Format&quot; xmlns:msxsl=&quot;urn:schemas-microsoft-com:xslt&quot;&gt;
+
+&lt;head&gt;
+
+&lt;META http-equiv=&quot;Content-Type&quot; content=&quot;text/html&quot;&gt;
+
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+
+&lt;/head&gt;
+
+&lt;body style=&quot;margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;&quot;&gt;
+
+&lt;table style=&quot;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px&quot;&gt;
+
+&lt;tr style=&quot;text-align:center;font-weight:bold;background:#9CBCE2&quot;&gt;
+
+&lt;td&gt;0&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;
+
+&lt;table style=&quot;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px&quot;&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;FID&lt;/td&gt;
+
+&lt;td&gt;0&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr bgcolor=&quot;#D4E4F3&quot;&gt;
+
+&lt;td&gt;Id&lt;/td&gt;
+
+&lt;td&gt;0&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;Luas&lt;/td&gt;
+
+&lt;td&gt;14.51097&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;/table&gt;
+
+&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;/table&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;
+
+</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#calon_lokasi_fape_lembaga_kelestarian_hutan_baru">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="snippet"></SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>111.701338586814,-7.61080559813438,0 111.701443735815,-7.61090245727649,0 111.701500611658,-7.61107414993513,0 111.7015246521,-7.61124584270463,0 111.701586020828,-7.61139039051266,0 111.701609370947,-7.61148075501416,0 111.701510913631,-7.61152607905169,0 111.701445866614,-7.61157140290621,0 111.70135562042,-7.61142689061919,0 111.701304374035,-7.61123712513296,0 111.701246392723,-7.61108354078085,0 111.701097825551,-7.61093913454456,0 111.701034272521,-7.61084884074666,0 111.701039180553,-7.61072229475447,0 111.701038963068,-7.61057764048925,0 111.70095267056,-7.61046288469629,0 111.700856388498,-7.61041523189103,0 111.700723541763,-7.61093970136345,0 111.700643499894,-7.61118389829653,0 111.700552017149,-7.61134673168552,0 111.700393740436,-7.61152774418571,0 111.70024444949,-7.61165453782065,0 111.700099562688,-7.61169993268513,0 111.699531176659,-7.61176343804406,0 111.699467747949,-7.61176414435395,0 111.699343176839,-7.61176432152255,0 111.699177275131,-7.61176456949973,0 111.699062340162,-7.61176474661406,0 111.699068619989,-7.61180089240238,0 111.699142244146,-7.61218949470162,0 111.699158137955,-7.6122165686569,0 111.699545735951,-7.61279451047712,0 111.699631422673,-7.61292094948076,0 111.699760792941,-7.6131015361846,0 111.700174464817,-7.61369751420263,0 111.700753971865,-7.61424806137907,0 111.700853869655,-7.61479028002948,0 111.701315667156,-7.61500651550529,0 111.702033899016,-7.61517721454494,0 111.702855238791,-7.61500424791398,0 111.703681089224,-7.61482224476607,0 111.70370712312,-7.61481317292807,0 111.703687753138,-7.61474088189293,0 111.70345295762,-7.61410847637865,0 111.703069770339,-7.61306950226477,0 111.702908974281,-7.61269915061935,0 111.702722590534,-7.61225647193897,0 111.702545940628,-7.61188611968415,0 111.70248690697,-7.61176261003502,0 111.702330100062,-7.61143447446922,0 111.702055938525,-7.61098293499631,0 111.701817447433,-7.61059507380408,0 111.701338586814,-7.61080559813438,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>0</name>
+	<description>&lt;html xmlns:fo=&quot;http://www.w3.org/1999/XSL/Format&quot; xmlns:msxsl=&quot;urn:schemas-microsoft-com:xslt&quot;&gt;
+
+&lt;head&gt;
+
+&lt;META http-equiv=&quot;Content-Type&quot; content=&quot;text/html&quot;&gt;
+
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+
+&lt;/head&gt;
+
+&lt;body style=&quot;margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;&quot;&gt;
+
+&lt;table style=&quot;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px&quot;&gt;
+
+&lt;tr style=&quot;text-align:center;font-weight:bold;background:#9CBCE2&quot;&gt;
+
+&lt;td&gt;0&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;
+
+&lt;table style=&quot;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px&quot;&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;FID&lt;/td&gt;
+
+&lt;td&gt;1&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr bgcolor=&quot;#D4E4F3&quot;&gt;
+
+&lt;td&gt;Id&lt;/td&gt;
+
+&lt;td&gt;0&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;Luas&lt;/td&gt;
+
+&lt;td&gt;4.114168&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;/table&gt;
+
+&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;/table&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;
+
+</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#calon_lokasi_fape_lembaga_kelestarian_hutan_baru">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="snippet"></SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>111.696518608895,-7.61047589834438,0 111.696556083415,-7.61050449014653,0 111.69672892437,-7.61063830681219,0 111.696988000107,-7.61084582674206,0 111.697092357607,-7.61096315916064,0 111.697173493687,-7.61107152579174,0 111.697262188156,-7.61131543936194,0 111.697366079247,-7.61187573459748,0 111.697450351829,-7.61219200990713,0 111.697739856369,-7.6130593299304,0 111.697921101182,-7.61347489859688,0 111.698112044298,-7.6139356135718,0 111.698270152376,-7.6136370580987,0 111.698420955091,-7.61338375516127,0 111.698554316729,-7.61320277887958,0 111.698783933643,-7.6130216255197,0 111.698953544727,-7.61284965002521,0 111.699083925206,-7.61256923741734,0 111.699156493063,-7.61225274974648,0 111.699158137955,-7.6122165686569,0 111.699142244146,-7.61218949470162,0 111.699068619989,-7.61180089240238,0 111.699062340162,-7.61176474661406,0 111.69882735812,-7.6117741373126,0 111.698617233452,-7.61173831030168,0 111.698452950007,-7.61168430422874,0 111.69835144496,-7.61158500962354,0 111.698043524624,-7.61127812450785,0 111.697832567613,-7.61106149747717,0 111.69764545576,-7.61089001728105,0 111.69753882963,-7.61077268486134,0 111.697423195515,-7.61069149837208,0 111.697242933967,-7.61055616391804,0 111.697097321339,-7.61049312110659,0 111.69698914352,-7.61047518989957,0 111.696884932482,-7.61045725867983,0 111.696753568764,-7.61045747116362,0 111.696673162936,-7.6104575774778,0 111.696518608895,-7.61047589834438,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>0</name>
+	<description>&lt;html xmlns:fo=&quot;http://www.w3.org/1999/XSL/Format&quot; xmlns:msxsl=&quot;urn:schemas-microsoft-com:xslt&quot;&gt;
+
+&lt;head&gt;
+
+&lt;META http-equiv=&quot;Content-Type&quot; content=&quot;text/html&quot;&gt;
+
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+
+&lt;/head&gt;
+
+&lt;body style=&quot;margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;&quot;&gt;
+
+&lt;table style=&quot;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px&quot;&gt;
+
+&lt;tr style=&quot;text-align:center;font-weight:bold;background:#9CBCE2&quot;&gt;
+
+&lt;td&gt;0&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;
+
+&lt;table style=&quot;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px&quot;&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;FID&lt;/td&gt;
+
+&lt;td&gt;2&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr bgcolor=&quot;#D4E4F3&quot;&gt;
+
+&lt;td&gt;Id&lt;/td&gt;
+
+&lt;td&gt;0&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;Luas&lt;/td&gt;
+
+&lt;td&gt;27.472065&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;/table&gt;
+
+&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;/table&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;
+
+</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#calon_lokasi_fape_lembaga_kelestarian_hutan_baru">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="snippet"></SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>111.699158137955,-7.6122165686569,0 111.699156493063,-7.61225274974648,0 111.699083925206,-7.61256923741734,0 111.698953544727,-7.61284965002521,0 111.698783933643,-7.6130216255197,0 111.698554316729,-7.61320277887958,0 111.698420955091,-7.61338375516127,0 111.698270152376,-7.6136370580987,0 111.698112044298,-7.6139356135718,0 111.698293881809,-7.61436921890089,0 111.698438271193,-7.61474867623376,0 111.698622337401,-7.61515517157235,0 111.698815473756,-7.6155706675649,0 111.69908228993,-7.61603127399564,0 111.699270194262,-7.61635644087399,0 111.699757719113,-7.6171149976369,0 111.700001194104,-7.61749427552078,0 111.700270194642,-7.61790066190741,0 111.70047906508,-7.61823479297653,0 111.700725428046,-7.6186502504007,0 111.70096970435,-7.61918317935583,0 111.701878036288,-7.61925415874897,0 111.701970320342,-7.61924498074418,0 111.702799624962,-7.61909912461591,0 111.703406166142,-7.61895256367673,0 111.703477152457,-7.6189354084197,0 111.704485806403,-7.61868983401629,0 111.704407569373,-7.61824705498407,0 111.704240424673,-7.61741567834768,0 111.704119032465,-7.61651193841484,0 111.704003642572,-7.6158341411835,0 111.70400135173,-7.61581606845517,0 111.703960798121,-7.61558112296638,0 111.703713385217,-7.61484028207296,0 111.70370712312,-7.61481317292807,0 111.703681089224,-7.61482224476607,0 111.702855238791,-7.61500424791398,0 111.702033899016,-7.61517721454494,0 111.701315667156,-7.61500651550529,0 111.700853869655,-7.61479028002948,0 111.700753971865,-7.61424806137907,0 111.700174464817,-7.61369751420263,0 111.699760792941,-7.6131015361846,0 111.699631422673,-7.61292094948076,0 111.699545735951,-7.61279451047712,0 111.699158137955,-7.6122165686569,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>0</name>
+	<description>&lt;html xmlns:fo=&quot;http://www.w3.org/1999/XSL/Format&quot; xmlns:msxsl=&quot;urn:schemas-microsoft-com:xslt&quot;&gt;
+
+&lt;head&gt;
+
+&lt;META http-equiv=&quot;Content-Type&quot; content=&quot;text/html&quot;&gt;
+
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+
+&lt;/head&gt;
+
+&lt;body style=&quot;margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;&quot;&gt;
+
+&lt;table style=&quot;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px&quot;&gt;
+
+&lt;tr style=&quot;text-align:center;font-weight:bold;background:#9CBCE2&quot;&gt;
+
+&lt;td&gt;0&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;
+
+&lt;table style=&quot;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px&quot;&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;FID&lt;/td&gt;
+
+&lt;td&gt;4&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr bgcolor=&quot;#D4E4F3&quot;&gt;
+
+&lt;td&gt;Id&lt;/td&gt;
+
+&lt;td&gt;0&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;Luas&lt;/td&gt;
+
+&lt;td&gt;3.981741&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;/table&gt;
+
+&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;/table&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;
+
+</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#calon_lokasi_fape_lembaga_kelestarian_hutan_baru">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="snippet"></SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>111.70096970435,-7.61918317935583,0 111.70132256013,-7.62038489786771,0 111.701335650323,-7.62043004387568,0 111.70155129336,-7.62113480094895,0 111.701596581816,-7.62111665758706,0 111.702067385351,-7.62091708066511,0 111.70264740564,-7.62067218050481,0 111.703072274693,-7.6204274928308,0 111.70327199303,-7.62031870342709,0 111.703114633171,-7.61997546683017,0 111.703114593218,-7.61994832267755,0 111.703217643447,-7.61956855089408,0 111.703226651425,-7.61953237037042,0 111.703406166142,-7.61895256367673,0 111.702799624962,-7.61909912461591,0 111.701970320342,-7.61924498074418,0 111.701878036288,-7.61925415874897,0 111.70096970435,-7.61918317935583,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
